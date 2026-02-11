@@ -21,7 +21,7 @@ Las cadenas nos permiten trabajar con texto, extraer partes, buscar palabras y m
 Por ejemplo, podemos acceder a letras, unir frases, buscar palabras o cambiar mayúsculas.
 Esto nos ayuda a trabajar con textos, extraer información, limpiar datos y preparar información para análisis o procesamiento.
 
-**Ejemplo:**
+
 ```python
 cadena = "Python es chimba"  # Creamos una cadena de texto
 print(cadena[0])              # Imprime el primer carácter
@@ -43,7 +43,7 @@ print("Columna1\tColumna2")  # Imprime dos columnas usando tabulación
 Aprendimos que las tuplas son estructuras de datos inmutables, útiles para almacenar colecciones de elementos que no deben cambiar.
 Nos permite guardar datos fijos, como coordenadas o registros, y asegurar que no se modifiquen accidentalmente.
 
-**Ejemplo:**
+
 ```python
 tupla = (10, 20, 30)      # Creamos una tupla con tres números
 print(tupla[1])            # Imprime el segundo elemento
@@ -61,7 +61,7 @@ Las listas se usan para manejar datos que cambian, como resultados, registros o 
 Podemos recorrerlas, modificarlas y ordenarlas.
 Esto nos ayuda a manejar datos dinámicos, como resultados, registros o cualquier información que pueda crecer o cambiar.
 
-**Ejemplo:**
+
 ```python
 lista = [10, 20, 30]      # Creamos una lista con tres números
 print(lista[1])            # Imprime el segundo elemento
@@ -83,7 +83,7 @@ Aprendimos que los conjuntos permiten almacenar elementos únicos y realizar ope
 Los conjuntos nos ayudan a eliminar duplicados y comparar grupos de datos. Podemos unir conjuntos, encontrar elementos comunes o ver diferencias.
 Esto nos ayuda a eliminar duplicados y comparar grupos de datos, útil para análisis y filtrado.
 
-**Ejemplo:**
+
 ```python
 conjunto1 = {1, 2, 3}         # Creamos un conjunto con tres números
 conjunto2 = {3, 4, 5}         # Otro conjunto con otros números
@@ -102,7 +102,7 @@ Aprendimos a usar diccionarios para guardar pares clave-valor. Son útiles para 
 Los diccionarios nos permiten buscar datos por clave, modificar valores y recorrer información estructurada.
 Esto nos permite estructurar datos como registros, configuraciones o cualquier información asociada a una clave.
 
-**Ejemplo:**
+
 ```python
 diccionario = {"nombre": "Juan", "edad": 30}  # Creamos un diccionario
 print(diccionario["nombre"])                      # Imprime el valor de la clave 'nombre'
@@ -122,7 +122,7 @@ Aprendimos a usar condicionales (if, else, elif) para tomar decisiones en el có
 Las condiciones nos permiten ejecutar acciones diferentes según los datos o situaciones. Podemos comparar valores y decidir qué hacer.
 Esto nos ayuda a controlar el flujo del programa y responder a diferentes escenarios o datos.
 
-**Ejemplo:**
+
 ```python
 x = 7                       # Asigna el valor 7 a x
 if x > 10:                  # Si x es mayor a 10
@@ -142,7 +142,7 @@ Los bucles nos permiten automatizar tareas, procesar grandes cantidades de datos
 Podemos recorrer listas, repetir instrucciones y controlar cuántas veces se ejecuta algo.
 Esto nos permite automatizar tareas, procesar grandes cantidades de datos y realizar operaciones repetitivas de forma eficiente.
 
-**Ejemplo:**
+
 ```python
 for i in range(5):         # Repite 5 veces
 	print(i)               # Imprime el valor de i (0 a 4)
@@ -163,7 +163,7 @@ Aprendimos a definir funciones para organizar el código, reutilizar lógica y d
 Las funciones nos ayudan a escribir código más limpio, modular y fácil de mantener. Podemos definir tareas, reutilizarlas y evitar repeticiones.
 Esto nos ayuda a escribir código más limpio, modular y fácil de mantener, además de evitar repeticiones.
 
-**Ejemplo:**
+
 ```python
 # La función sumar recibe dos números y retorna su suma
 def sumar(a, b):
@@ -184,7 +184,7 @@ Las clases nos permiten modelar problemas complejos, organizar datos y comportam
 Podemos crear nuestros propios tipos de datos, definir cómo se comportan y reutilizar código.
 Esto nos permite modelar problemas complejos, organizar datos y comportamientos, y aprovechar la programación orientada a objetos para proyectos grandes.
 
-**Ejemplo:**
+
 ```python
 class Animal:                          # Definimos una clase Animal
 	def __init__(self, nombre):        # Método constructor, recibe el nombre
